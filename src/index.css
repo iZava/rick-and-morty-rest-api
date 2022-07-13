@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+:root {
+  --light-blue: rgb(13, 207, 255);
+  --yellow-green: rgb(130, 248, 19);
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -13,7 +18,7 @@ body {
 
 h1{
   font-family: 'Roboto', sans-serif;
-  color: rgb(130, 248, 19);
+  color: var(--light-blue)
   
 }
 
@@ -27,19 +32,18 @@ p{
 }
 
 .btn{
-  color: rgb(130, 248, 19);
-  border-color: rgb(130, 248, 19)
+  color: var(--light-blue);
+  border-color: var(--light-blue);
 }
 
 .btn:hover{
-  background-color: rgb(130, 248, 19);
-  border-color: rgb(130, 248, 19);
+  background-color: var(--light-blue);
+  border-color: var(--light-blue);
 }
 
 .btn:focus{
-  background-color: rgb(130, 248, 19);
-  border-color: rgb(130, 248, 19);
-  box-shadow: none
+  background-color: var(--light-blue);
+  border-color: var(--light-blue);
 }
 
 

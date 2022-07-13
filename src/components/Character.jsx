@@ -9,7 +9,7 @@ function Character({ character }) {
                         alt={character.name}
                     />
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-8 rounded-end">
                     <div className="card-body p-2">
                         <h3 className="card-title text-white ">
                             {character.name}
